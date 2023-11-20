@@ -1,8 +1,13 @@
-﻿var builder = WebApplication.CreateBuilder(args);
+﻿using FundaTestAssessment.Api.AutomapperProfile;
+
+var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+builder.Services.AddAutoMapper(typeof(MapperProfile));
+
 
 var app = builder.Build();
 
