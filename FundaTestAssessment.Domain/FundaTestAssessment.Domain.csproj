@@ -12,6 +12,7 @@
     <None Remove="QueryHandlers\" />
     <None Remove="EstateApiClient\" />
     <None Remove="EstateApiClient\Models\" />
+    <None Remove="Services\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Queries\" />
@@ -19,6 +20,7 @@
     <Folder Include="QueryHandlers\" />
     <Folder Include="EstateApiClient\" />
     <Folder Include="EstateApiClient\Models\" />
+    <Folder Include="Services\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="MediatR" Version="11.1.0" />

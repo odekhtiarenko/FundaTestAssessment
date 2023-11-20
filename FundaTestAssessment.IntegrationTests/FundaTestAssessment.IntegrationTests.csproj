@@ -20,6 +20,20 @@
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
+    <PackageReference Include="LightBDD.XUnit2" Version="3.7.0" />
+    <PackageReference Include="FluentAssertions" Version="6.12.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Testing" Version="7.0.14" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Remove="Features\" />
+    <None Remove="TestHelpers\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Features\" />
+    <Folder Include="TestHelpers\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\FundaTestAssessment.Api\FundaTestAssessment.Api.csproj" />
+  </ItemGroup>
 </Project>
