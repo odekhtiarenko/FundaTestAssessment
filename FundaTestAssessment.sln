@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1706.6
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FundaTestAssessment.Api", "FundaTestAssessment.Api\FundaTestAssessment.Api.csproj", "{DA8A5F22-8880-4EDB-9F45-0BBAC6F4900C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DA8A5F22-8880-4EDB-9F45-0BBAC6F4900C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA8A5F22-8880-4EDB-9F45-0BBAC6F4900C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA8A5F22-8880-4EDB-9F45-0BBAC6F4900C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA8A5F22-8880-4EDB-9F45-0BBAC6F4900C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {300D5197-84E6-4A54-9A1D-88C97F4343C0}
+	EndGlobalSection
+EndGlobal
