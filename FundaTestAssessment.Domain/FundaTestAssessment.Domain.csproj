@@ -6,4 +6,23 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="Queries\" />
+    <None Remove="Models\" />
+    <None Remove="QueryHandlers\" />
+    <None Remove="EstateApiClient\" />
+    <None Remove="EstateApiClient\Models\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Queries\" />
+    <Folder Include="Models\" />
+    <Folder Include="QueryHandlers\" />
+    <Folder Include="EstateApiClient\" />
+    <Folder Include="EstateApiClient\Models\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="MediatR" Version="11.1.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="Microsoft.Extensions.Http" Version="7.0.0" />
+  </ItemGroup>
 </Project>

@@ -27,11 +27,14 @@
 
   <ItemGroup>
     <None Remove="ApiTests\" />
+    <None Remove="HandlerTests\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="ApiTests\" />
+    <Folder Include="HandlerTests\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\FundaTestAssessment.Api\FundaTestAssessment.Api.csproj" />
+    <ProjectReference Include="..\FundaTestAssessment.Domain\FundaTestAssessment.Domain.csproj" />
   </ItemGroup>
 </Project>
